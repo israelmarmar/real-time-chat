@@ -12,12 +12,11 @@ Para fazer o login: http://localhost:3000/login
 
 Usuários
 
-A página inicial é dividida em três tabs
-
 email: usuario@email.com senha: senha123
 email: usuario2@email.com senha: senha1234
-
 Faça o login em browser diferentes para cada usuário 
+
+A página inicial é dividida em três tabs
 
 Tópicos Abertos: Mostra os tópicos não inscritos pelo usuário, com botão para se inscrever;
 Meus Tópicos: Tópicos criados pelo usuário, com botão para criar novos tópicos;
