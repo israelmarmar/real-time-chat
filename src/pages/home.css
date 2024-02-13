@@ -1,0 +1,17 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 5px;
+  padding: 150px;
+}
+
+.MuiAppBar-colorPrimary {
+    color: black!important;
+    background-color: white!important;
+}
+
+.MuiTabPanel-root{
+    width: 95%;
+}

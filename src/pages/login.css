@@ -1,0 +1,81 @@
+@font-face {
+  font-family: "Open Sans";
+  src: url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap");
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  font-family: "Open Sans", Arial, sans-serif;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  color: #333;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.header h1 {
+  font-family: "Open Sans", Arial, sans-serif;
+  width: 200px;
+  margin: 0;
+}
+
+/* Estilos da página de login */
+.main-login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.login-container { 
+  border-radius: 5px;
+  padding: 2rem;
+  width: 300px;
+}
+
+.login-container h1 {
+  margin-bottom: 1rem;
+  font-family: "Open Sans", Arial, sans-serif;
+  margin-left: 25%;
+}
+
+.login-container label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.login-container input {
+  width: 94%;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: "Open Sans", Arial, sans-serif;
+}
+
+.login-container button {
+  border: 1px solid #333 !important;
+  background-color: white;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Open Sans", Arial, sans-serif;
+  width: 100%;
+  height: 50px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.register-button {
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  margin: 0px !important;
+}

@@ -1,0 +1,46 @@
+.tab-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .tab-title {
+    flex: 1;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .subscribe-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+  
+  .subscribe-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .check-icon {
+    margin-left: 5px;
+  }
+
+  .tab-content {
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  
+  /* Media Query para estilizar o texto do botão quando estiver inscrito */
+  @media (max-width: 480px) {
+    .subscribe-button {
+      font-size: 14px;
+    }
+  }
+  
